@@ -6,6 +6,9 @@ Name = "FlappyCow"
 TargetType = "BeefGUIApplication"
 StartupObject = "FlappyCow.Program"
 
+[Platform.Windows]
+IconFile = "$(WorkspaceDir)\\dist\\images\\icon.ico"
+
 [Configs.Debug.Win64]
 TargetDirectory = "$(WorkspaceDir)/dist"
 
