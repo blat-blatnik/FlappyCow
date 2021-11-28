@@ -1,0 +1,19 @@
+FileVersion = 1
+Dependencies = {corlib = "*", SDL2 = "*"}
+
+[Project]
+Name = "FlappyCow"
+TargetType = "BeefGUIApplication"
+StartupObject = "FlappyCow.Program"
+
+[Configs.Debug.Win64]
+TargetDirectory = "$(WorkspaceDir)/dist"
+
+[Configs.Release.Win64]
+TargetDirectory = "$(WorkspaceDir)/dist"
+
+[Configs.Paranoid.Win64]
+TargetDirectory = "$(WorkspaceDir)/dist"
+
+[Configs.Test.Win64]
+TargetDirectory = "$(WorkspaceDir)/dist"
