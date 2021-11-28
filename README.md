@@ -23,3 +23,7 @@ Run `FlappyCow.exe` from `FlappyCow/bin/win64/`.
 # How to compile
 
 Download the [Beef IDE](https://www.beeflang.org/) and start it up, then go to File->Open->Open Project, then find and select `FlappyCow/BeefProj.toml`. You can then click Build->Build Workspace to compile.
+
+# How to remove
+
+Apart from the `.exe` and game files, your high score and volume settings are saved in `%APPDATA%/Blatnik/Flappy Cow/highscores.bin`. You can delete all of these files, or only the `.exe` and game files if you wish to keep your high score.
