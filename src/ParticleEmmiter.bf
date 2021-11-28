@@ -44,7 +44,6 @@ namespace FlappyCow
 				float y = p.y + p.vy * t + 0.5f * Gravity * t * t;
 				SDL.SetRenderDrawColor(renderer, p.color.r, p.color.g, p.color.b, (.)(alphaMult * p.color.a));
 				//SDL.RenderDrawPoint(renderer, (.)x, (.)y);
-				//
 				// Larger particles look better - and they also cover more of the screen so we can use fewer for the same effect.
 				SDL.Rect r = .{ x = (.)x, y = (.)y, w = 3, h = 3 };
 				SDL.RenderDrawRect(renderer, &r);

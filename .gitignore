@@ -1,4 +1,7 @@
 build
-dist
 recovery
 BeefSpace_User.toml
+dist/*.dll
+dist/*.exe
+dist/*.pdb
+dist/*.exe.build.txt

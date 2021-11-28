@@ -7,7 +7,7 @@ namespace FlappyCow
 {
 	class PipeManager
 	{
-		static Random Rng = new Random(Stopwatch.GetTimestamp()) ~ delete _;
+		static Random Rng = new Random((.)Stopwatch.GetTimestamp()) ~ delete _;
 		public List<Pipe> Pipes = new List<Pipe>() ~ delete _;
 		public Stopwatch GracePeriodTimer = new Stopwatch() ~ delete _;
 
